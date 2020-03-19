@@ -1,0 +1,17 @@
+{
+	"bert_model" : "bert-base-uncased",
+	"task_name" : "cbrs",
+	"do_lower_case" : true,
+	"train_batch_size" : 5,
+	"test_batch_size" : 1,
+	"gradient_accumulation_steps" : 1,
+	"num_train_epochs" : 20,
+	"learning_rate" : 0.000001,
+	"warmup_proportion" : 0.1,
+	"max_seq_length" : 512,
+	"local_rank" : -1,
+	"no_cuda" : false,
+	"path" : "<base_path>",
+	"output_dir" : "<output_dir>"
+
+}
