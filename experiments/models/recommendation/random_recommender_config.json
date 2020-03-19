@@ -1,0 +1,5 @@
+{
+	"path" : "<base_path>",
+    "separator" : "::",
+    "n_folds" : 5
+}
