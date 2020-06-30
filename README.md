@@ -14,7 +14,7 @@ In this project, we have included the following traditional recommendation model
 
 - An alternative of the deep content-based recommendation model proposed by Musto, called [deepCBRS](https://github.com/nlp-deepcbrs/amar), that uses a binary classifier based on Bidirectional Recurrent Neuronal Networks (BRNNs). Ir order to use 5 classes, we adapted the source code of the original model. In addition, we do not use embedding models to represent the textual information of the items.
 
-C. Musto, T. Franza, G. Semeraro, M. de Gemmis, and P. Lops, “Deepcontent-based  recommender  systems  exploiting  Recurrent  Neural  Net-works and Linked Open Data,” in26th Conference on User Modeling,Adaptation and Personalization (UMAP).ACM, July 2018, pp. 239–244.
+C. Musto, T. Franza, G. Semeraro, M. de Gemmis, and P. Lops, “Deep content-based recommender systems exploiting Recurrent Neural Networks and Linked Open Data,” in 26th Conference on User Modeling, Adaptation and Personalization (UMAP). ACM, July 2018, pp. 239–244.
 
 ## Requirements
 
