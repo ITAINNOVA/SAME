@@ -1,21 +1,20 @@
 # SAME: Semantic Aware ModeEls
 
-SAME: Semantic Aware ModeEls is a framework with different traditional recommendation models and
-a semantic-aware content-based recommendation model that exploits textual features of items 
-obtained from the Linked Open Data and deep learning transformers like BERT 
-(Bidirectional Encoder Representations from Transformers).
+SAME: Semantic Aware ModeEls is a framework with different traditional recommendation models and a semantic-aware content-based recommendation model that exploits textual features of items obtained from the Linked Open Data and deep learning transformers like BERT (Bidirectional Encoder Representations from Transformers).
 
 ## Description
 
 In this project, we have included the following traditional recommendation models:
 
-- A random recommendation model that predicts a random rating based on the distribution of the training set, which is assumed to be
-normal. This model was provided by Surprise library.
+- A random recommendation model that predicts a random rating based on the distribution of the training set, which is assumed to be normal. This model was provided by Surprise library.
 
-- A traditional content-based recommendation model based on Vector Space Model (VSM) to represent the textual information of
-items, by using TF-IDF weights. This model was implemented by using Sklearn library.
+- A traditional content-based recommendation model based on Vector Space Model (VSM) to represent the textual information of items, by using TF-IDF weights. This model was implemented by using Sklearn library.
 
 - A semantic-aware content-based recommendation model, based on BERT classifier able to train and test any text information with its related labels.
+
+- An alternative of the deep content-based recommendation model proposed by Musto, called [deepCBRS](https://github.com/nlp-deepcbrs/amar), that uses a binary classifier based on Bidirectional Recurrent Neuronal Networks (BRNNs). Ir order to use 5 classes, we adapted the source code of the original model. In addition, we do not use embedding models to represent the textual information of the items.
+
+C. Musto, T. Franza, G. Semeraro, M. de Gemmis, and P. Lops, “Deepcontent-based  recommender  systems  exploiting  Recurrent  Neural  Net-works and Linked Open Data,” in26th Conference on User Modeling,Adaptation and Personalization (UMAP).ACM, July 2018, pp. 239–244.
 
 ## Requirements
 
@@ -29,6 +28,7 @@ The libraries used in this project with its respective versions can be seen in `
     - bert_recommender.py
     - random_recommender.py    
     - content_based_recommender.py
+	- deepcbrs_recommender.py
      
 ## Configuration files
 
