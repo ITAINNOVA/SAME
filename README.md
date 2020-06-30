@@ -57,14 +57,8 @@ For instance, the configuration file for the `bert_classifier.py` file is compos
 
 ## License
 
-This product includes software developed at [ITAINNOVA](http://www.itainnova.es).
-
 Open source license: If you are creating an open source application under a license compatible with the GNU GPL license v3 you may use SAME under its terms and conditions.
 
 ## Contributors
 
-- María del Carmen Rodríguez Hernández - [mcrodriguez@itainnova.es](mailto:mcrodriguez@itainnova.es)
-- Sergio Sabroso Lasa - [sabrosomr@gmail.com](mailto:sabrosomr@gmail.com)
-- Rosa María Montañés Salas - [rmontanes@itainnova.es](mailto:rmontanes@itainnova.es)
-- Rafael del Hoyo Alonso - [rdelhoyo@itainnova.es](mailto:rdelhoyo@itainnova.es)
-- Sergio Ilarri - [silarri@unizar.es](mailto:silarri@unizar.es)
+Omitted temporarily due to double-blind peer review. 
