@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, filename='bert_classifier.log', filemode
 
 class BertClassifier(AbstractClassifier):
     """
-        This implementation fine-tunes given BERT model in order to perform simple (one-class) classification.
+        This implementation fine-tunes given BERT model in order to perform simple (one-label) classification.
     """
 
     def __init__(self):
